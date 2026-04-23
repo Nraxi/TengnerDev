@@ -9,6 +9,7 @@ import s6 from "./PICS/s6.png";
 import s8zin from "./PICS/s8zin.png";
 import s10 from "./PICS/s10.png";
 import s11 from "./PICS/s11.png";
+import s12 from "./PICS/s12.png";
 import tomtenissar from "./PICS/tomtenissar.png";
 import FooterNew from "./components/FooterNew";
 import ContactForm from "./components/ContactForm";
@@ -403,6 +404,11 @@ const App = () => {
   ];
 
   const projects = [
+    {
+      name: "Jobb - filter, Filtera bort bruset från platsbanken",
+      link: "https://nraxi.github.io/jobb-filter/",
+      image: s12,
+    },
     {
       name: "Tomtenissarnas Julkalender",
       link: "https://nraxi.github.io/tomtenissarnasjulkalender/",
